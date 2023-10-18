@@ -6,9 +6,14 @@ Bem-vindo ao Projeto de Educação em Tecnologia do SENAI! Este projeto foi dese
 
 Nosso projeto é parte integrante do curso do SENAI e tem como objetivo equipar os alunos com habilidades valiosas e conhecimentos práticos nas áreas de TI, desenvolvimento de software, nuvem e muito mais. A abordagem de aprendizado é moderna e contemporânea, garantindo que os alunos estejam preparados para os desafios tecnológicos do mundo real.
 
-## Paleta de Cores
+## Protótipo PC
+![Pc](src/img/PC-PROTOTYPE)
 
-![Paleta](../)
+## Protótipo Mobile
+![Mobile](src/img/MOBILE-PROTOTYPE)
+
+## Identidade Visual
+![Identidade](src/img/IDENTIDADE-VISUAL)
 
 ## Como Contribuir
 
