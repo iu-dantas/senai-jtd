@@ -28,13 +28,6 @@ Se você é um aluno do curso do SENAI ou um entusiasta da tecnologia, convidamo
 
 Nossos cursos e recursos educacionais estão disponíveis no site oficial do SENAI. Você pode acessar o material do curso, tutoriais, e muito mais.
 
-**Site Oficial**: [www.senai.edu.br/tecnologia](https://www.senai.edu.br/tecnologia)
-
-## Contato
-
-Se você tiver alguma dúvida ou precisar de assistência, entre em contato conosco:
-
-- E-mail: [contato@senai.edu.br](mailto:contato@senai.edu.br)
-- Telefone: (XX) XXXX-XXXX
+**Site Oficial**: [https://manutencao.sp.senai.br/)
 
 Agradecemos por fazer parte deste projeto educativo do SENAI e esperamos que ele contribua para o seu crescimento profissional na área da tecnologia. Vamos aprender e inovar juntos!
