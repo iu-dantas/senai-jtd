@@ -8,9 +8,7 @@ Nosso projeto é parte integrante do curso do SENAI e tem como objetivo equipar 
 
 ## Paleta de Cores
 
-- **Azul SENAI**: Nossa paleta de cores incorpora tons de azul inspirados na identidade do SENAI, refletindo confiança e excelência educacional.
-- **Cinza Claro**: O cinza claro é usado para equilibrar a paleta e oferecer uma sensação de sofisticação.
-- **Verde Tecnologia**: Toques de verde são adicionados para representar a inovação e a evolução tecnológica.
+![Paleta](../)
 
 ## Como Contribuir
 
