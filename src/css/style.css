@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+article {
+  color: #fff;
+}
+
+.barra-grupo-fiesp {
+  background-color: red; /* Fundo vermelho */
+  color: white; /* Texto branco */
+  text-align: right; /* Alinhamento à direita */
+  padding: 10px; /* Espaçamento interno */
+}
+
+.links-fiesp {
+  height: 0.2rem;
+}
+
+.links-fiesp li {
+  display: inline;
+  font-size: 8px;
+}
+
+.list-inline-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-social a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-social:not(:first-child)::before {
+  content: " | ";
+}
+
+.navbar a {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 4.26px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+}
+
+.hero-section p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.hero-section img {
+  margin-top: 3rem;
+}
+
+.inst {
+  display: flex;
+  margin: 5rem 2rem;
+  max-width: 1100px;
+  justify-content: center;
+}
+
+.informacoes h2 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  margin: 2rem 1rem;
+}
+
+.informacoes p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  margin: 0 1rem;
+}
+
+.cursos h2 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2rem 1rem;
+}
+
+.cursos h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.48px;
+  margin: 2rem 1rem;
+}
+
+/*SERVICOS*/
+
+.cursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#cursos-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.cursos h1 {
+  margin-bottom: 5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.card {
+  width: 272px;
+  height: 306px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: #c73039;
+  box-shadow: 4px 4px 0px 0px #000;
+  color: #fff;
+}
+
+.card-container {
+  margin: 2rem 2rem 0 2rem;
+}
+
+.card:nth-child(2n) {
+  background-color: #fff;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.card strong {
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  height: 60px;
+}
+
+.card ul {
+  margin-top: 2rem;
+}
+
+.card li {
+  font-size: 12px;
+  margin: 0 1rem;
+}
+
+.card a {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.card:hover {
+  box-shadow: 8px 8px 0 var(--color-black);
+  transform: translateY(-0.33em);
+}
+
+.tech img {
+  margin: 2rem 2rem;
+}
+
+.inscricao h2 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  margin: 2rem 1rem;
+}
+
+.inscricao p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  margin: 0 1rem;
+}
+
+.inscricao label {
+  font-size: 12px;
+  width: 3rem;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.inscricao h1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  margin: 2rem 1rem;
+}
+
+form button img {
+  width: 31.004px;
+  height: 29.066px;
+}
+
+form button {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #fff;
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-transform: lowercase;
+  margin: 1rem 0;
+}
+
+/* Estilos para telas médias (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* Estilos para telas grandes (desktops) */
+@media only screen and (min-width: 1025px) {
+  nav button {
+    width: 141px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  nav ul {
+    gap: 2rem;
+  }
+
+  .links-fiesp li {
+    display: inline;
+    font-size: 20px;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+  }
+
+  .hero-section h1 {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+  }
+
+  .hero-section p {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+  }
+
+  .inst-org {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inf-p {
+    display: flex;
+    width: 1104px;
+    height: 310px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .informacoes h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    margin: 2rem 1rem;
+  }
+
+  .informacoes p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    margin: 0 1rem;
+  }
+
+  .cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+  }
+
+  #cursos-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .servicos h1 {
+    margin-bottom: 5rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    margin-bottom: 5rem;
+  }
+
+  .cursos h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 6rem 1rem;
+  }
+
+  .cursos h4 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    margin: 2rem 1rem;
+  }
+
+  .tech {
+    margin: 5rem 2rem;
+  }
+
+  .inscricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inscricao h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+  }
+
+  .inscricao p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    margin: 0 1rem;
+  }
+
+  .insc-t {
+    width: 1104px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  insc-p {
+    display: flex;
+    width: 1104px;
+    height: 310px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 200px;
+  }
+
+  .contato button {
+    margin-top: 1rem;
+  }
+
+  .inscricao h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    width: 448px;
+    text-align: left;
+  }
+
+  footer p {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
